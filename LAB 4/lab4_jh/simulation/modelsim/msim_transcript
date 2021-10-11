@@ -1,0 +1,57 @@
+# Reading pref.tcl
+# do lab4_jh_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/jmhearn/Desktop/lab4_jh/db {C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:40:23 on Sep 26,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/jmhearn/Desktop/lab4_jh/db" C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv 
+# -- Compiling module lab4_jh
+# -- Compiling module poweredSwitch
+# -- Compiling module assignSegments
+# -- Compiling module takeInput
+# -- Compiling module decodeInput
+# 
+# Top level modules:
+# 	lab4_jh
+# End time: 22:40:24 on Sep 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript work.lab4_jh
+# vsim -gui -l msim_transcript work.lab4_jh 
+# Start time: 22:40:35 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.lab4_jh
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'poweredSwitch'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_jh File: C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv Line: 15
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'takeInput'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_jh File: C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv Line: 18
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'decodeInput'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_jh File: C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv Line: 19
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'assignSegments'.
+#    Time: 0 ps  Iteration: 0  Instance: /lab4_jh File: C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv Line: 23
+# Error loading design
+# End time: 22:40:35 on Sep 26,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vsim work.assignSegments
+# vsim work.assignSegments 
+# Start time: 22:40:50 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.assignSegments
+vsim work.poweredSwitch
+# End time: 22:41:08 on Sep 26,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim work.poweredSwitch 
+# Start time: 22:41:08 on Sep 26,2021
+# Loading sv_std.std
+# Loading work.poweredSwitch
+# End time: 22:41:19 on Sep 26,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0

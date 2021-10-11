@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Sep 27 00:23:24 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : lab4_jh
+Top-level Entity Name : lab4_jh
+Family : MAX 10
+Device : 10M08SAU169C8G
+Timing Models : Final
+Total logic elements : 95 / 8,064 ( 1 % )
+    Total combinational functions : 95 / 8,064 ( 1 % )
+    Dedicated logic registers : 59 / 8,064 ( < 1 % )
+Total registers : 59
+Total pins : 19 / 130 ( 15 % )
+Total virtual pins : 0
+Total memory bits : 0 / 387,072 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

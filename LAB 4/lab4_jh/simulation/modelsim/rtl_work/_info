@@ -1,0 +1,145 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jmhearn/Desktop/lab4_jh/simulation/modelsim
+vassignSegments
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1632721224
+!i10b 1
+!s100 D`BFzzVj5enD6:bAP;OZb1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[A;Y@:f<OZPY447?KP61P3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1632721188
+Z6 8C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv
+Z7 FC:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv
+!i122 0
+L0 49 25
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1632721223.000000
+!s107 C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv|
+Z10 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/jmhearn/Desktop/lab4_jh/db|C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv|
+!i113 1
+Z11 o-sv -work work
+Z12 !s92 -sv -work work +incdir+C:/Users/jmhearn/Desktop/lab4_jh/db
+Z13 tCvgOpt 0
+nassign@segments
+vdecodeInput
+R1
+R2
+!i10b 1
+!s100 10c3e<3^K_f@c3]Xl3n[^1
+R3
+ITIW_6WNnh<4QdNZ0Z_F0a2
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 138 35
+R8
+r1
+!s85 0
+31
+R9
+Z14 !s107 C:/Users/jmhearn/Desktop/lab4_jh/db/lab4_jh.sv|
+R10
+!i113 1
+R11
+R12
+R13
+ndecode@input
+vlab4_jh
+R1
+R2
+!i10b 1
+!s100 7U4^ZFD8?0_F=FnldnLdW3
+R3
+IGnO?RH7YM_igf4`C8eV011
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1 28
+R8
+r1
+!s85 0
+31
+R9
+R14
+R10
+!i113 1
+R11
+R12
+R13
+vpoweredSwitch
+R1
+R2
+!i10b 1
+!s100 >QL4K`=TgAOZRK3dhVf6[3
+R3
+IcOMJQHVlA]bQmgTb@Ri5I0
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 38 8
+R8
+r1
+!s85 0
+31
+R9
+R14
+R10
+!i113 1
+R11
+R12
+R13
+npowered@switch
+vtakeInput
+R1
+R2
+!i10b 1
+!s100 7l1SKk<Lm0GV8To_T;B;[2
+R3
+IVzJ@3?MjD=_XNCb^P[<XP1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 77 59
+R8
+r1
+!s85 0
+31
+R9
+R14
+R10
+!i113 1
+R11
+R12
+R13
+ntake@input

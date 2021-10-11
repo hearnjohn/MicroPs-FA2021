@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Sep 27 00:23:19 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : lab4_jh
+Top-level Entity Name : lab4_jh
+Family : MAX 10
+Total logic elements : 98
+    Total combinational functions : 94
+    Dedicated logic registers : 59
+Total registers : 59
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

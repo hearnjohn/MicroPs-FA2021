@@ -1,0 +1,159 @@
+|lab4_jh
+clk => clk.IN2
+reset => reset.IN1
+cols[0] => cols[0].IN1
+cols[1] => cols[1].IN1
+cols[2] => cols[2].IN1
+cols[3] => cols[3].IN1
+rows[0] << takeInput:comb_5.port3
+rows[1] << takeInput:comb_5.port3
+rows[2] << takeInput:comb_5.port3
+rows[3] << takeInput:comb_5.port3
+anode1 << poweredSwitch:comb_3.port1
+anode2 << poweredSwitch:comb_3.port1
+seg[0] << assignSegments:comb_10.port1
+seg[1] << assignSegments:comb_10.port1
+seg[2] << assignSegments:comb_10.port1
+seg[3] << assignSegments:comb_10.port1
+seg[4] << assignSegments:comb_10.port1
+seg[5] << assignSegments:comb_10.port1
+seg[6] << assignSegments:comb_10.port1
+
+
+|lab4_jh|poweredSwitch:comb_3
+clk => q[0].CLK
+clk => q[1].CLK
+clk => q[2].CLK
+clk => q[3].CLK
+clk => q[4].CLK
+clk => q[5].CLK
+clk => q[6].CLK
+clk => q[7].CLK
+clk => q[8].CLK
+clk => q[9].CLK
+clk => q[10].CLK
+clk => q[11].CLK
+clk => q[12].CLK
+clk => q[13].CLK
+clk => q[14].CLK
+clk => q[15].CLK
+clk => q[16].CLK
+clk => q[17].CLK
+clk => q[18].CLK
+clk => q[19].CLK
+clk => q[20].CLK
+clk => q[21].CLK
+clk => q[22].CLK
+clk => q[23].CLK
+clk => q[24].CLK
+clk => q[25].CLK
+clk => q[26].CLK
+clk => q[27].CLK
+clk => q[28].CLK
+clk => q[29].CLK
+powered <= q[29].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_jh|slowerClock:comb_4
+clk => q[3].CLK
+clk => q[4].CLK
+clk => q[5].CLK
+clk => q[6].CLK
+clk => q[7].CLK
+clk => q[8].CLK
+clk => q[9].CLK
+clk => q[10].CLK
+clk => q[11].CLK
+clk => q[12].CLK
+clk => q[13].CLK
+clk => q[14].CLK
+clk => q[15].CLK
+clk => q[16].CLK
+clk => q[17].CLK
+clk => q[18].CLK
+clk => q[19].CLK
+adjclk <= q[19].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_jh|takeInput:comb_5
+clk => clk.IN1
+reset => reset.IN1
+cols[0] => cols[0].IN1
+cols[1] => cols[1].IN1
+cols[2] => cols[2].IN1
+cols[3] => cols[3].IN1
+rows[0] <= rows[0].DB_MAX_OUTPUT_PORT_TYPE
+rows[1] <= rows[1].DB_MAX_OUTPUT_PORT_TYPE
+rows[2] <= rows[2].DB_MAX_OUTPUT_PORT_TYPE
+rows[3] <= rows[3].DB_MAX_OUTPUT_PORT_TYPE
+currNum1[0] <= currNum1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum1[1] <= currNum1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum1[2] <= currNum1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum1[3] <= currNum1[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum2[0] <= currNum2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum2[1] <= currNum2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum2[2] <= currNum2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+currNum2[3] <= currNum2[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_jh|takeInput:comb_5|decodeInput:comb_67
+clk => ~NO_FANOUT~
+reset => ~NO_FANOUT~
+cols[0] => Mux0.IN19
+cols[0] => Mux1.IN19
+cols[0] => Mux2.IN18
+cols[0] => Mux3.IN19
+cols[1] => Mux0.IN18
+cols[1] => Mux1.IN18
+cols[1] => Mux2.IN17
+cols[1] => Mux3.IN18
+cols[2] => Mux0.IN17
+cols[2] => Mux1.IN17
+cols[2] => Mux2.IN16
+cols[2] => Mux3.IN17
+cols[3] => Mux0.IN16
+cols[3] => Mux1.IN16
+cols[3] => Mux2.IN15
+cols[3] => Mux3.IN16
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => nextNum.OUTPUTSELECT
+rows[0] => Mux2.IN19
+rows[1] => nextNum.OUTPUTSELECT
+rows[1] => nextNum.OUTPUTSELECT
+rows[1] => nextNum.OUTPUTSELECT
+rows[1] => nextNum.OUTPUTSELECT
+rows[1] => nextNum.OUTPUTSELECT
+rows[1] => nextNum.DATAA
+rows[1] => nextNum.DATAA
+rows[2] => nextNum.OUTPUTSELECT
+rows[2] => nextNum.OUTPUTSELECT
+rows[2] => nextNum.DATAA
+rows[3] => nextNum.DATAA
+rows[3] => nextNum.DATAA
+nextNum[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+nextNum[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+nextNum[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+nextNum[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab4_jh|assignSegments:comb_10
+s[0] => Decoder0.IN3
+s[1] => Decoder0.IN2
+s[2] => Decoder0.IN1
+s[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
